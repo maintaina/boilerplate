@@ -49,6 +49,7 @@ jobs:
       run: |
         ## For unclear reasons, github action fails randomly if we do not install before we require.
         COMPOSER_ROOT_VERSION=dev-FRAMEWORK_6_0 composer config minimum-stability dev
+        COMPOSER_ROOT_VERSION=dev-FRAMEWORK_6_0 composer config allow-plugins true
         COMPOSER_ROOT_VERSION=dev-FRAMEWORK_6_0 composer install
     - name: run phpunit
       run: phpunit --bootstrap test/bootstrap.php
