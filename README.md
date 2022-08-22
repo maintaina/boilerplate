@@ -1,2 +1,2 @@
 # workflows
-An authoritative source for workflow snippets to use in the maintaina-com packages.
+An authoritative source for workflows, snippets and templates to use in the maintaina-com packages.
